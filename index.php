@@ -133,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--- banner ---->
 <div class="banner">
 	<div class="container">
-<!-- 		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="font-family: 'playfair display', serif; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn; color: black; "> Rental Mobil - Sewa mobil Murah</h1> -->
+		<!-- <h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="font-family: 'playfair display', serif; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn; color: black; "> Rental Mobil - Sewa mobil Murah</h1> -->
 	</div>
 </div>s
 <div class="container">
