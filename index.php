@@ -230,6 +230,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--- /footer-top ---->
 <!---copy-right ---->
+	<footer>
 <div class="copy-right">
 	<div class="container">
 	
@@ -305,5 +306,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //signin -->
 <!-- write us -->
 <!-- //write us -->
+	</footer>
 </body>
 </html>
