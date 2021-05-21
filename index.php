@@ -1,4 +1,4 @@
-<!--
+<!-- <!-- <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -133,9 +133,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--- banner ---->
 <div class="banner">
 	<div class="container">
-		<!-- <h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="font-family: 'playfair display', serif; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn; color: black; "> Rental Mobil - Sewa mobil Murah</h1> -->
+		h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="font-family: 'playfair display', serif; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn; color: black; "> Rental Mobil - Sewa mobil Murah</h1>
 	</div>
-</div>s
+</div>
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 		<i class="fa fa-columns"></i>
@@ -230,7 +230,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--- /footer-top ---->
 <!---copy-right ---->
-	<footer>
 <div class="copy-right">
 	<div class="container">
 	
@@ -244,17 +243,67 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<p class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">© 2017 Rental Mobil . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">MH3</a> </p>
 	</div>
 </div>
-	<div class="copy-right">
-	<div class="container">
-	
-		<div class="footer-social-icons wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-			<ul>
-				<li><a class="facebook" href="#"><span>Facebook</span></a></li>
-				<li><a class="twitter" href="#"><span>Twitter</span></a></li>
-				<li><a class="googleplus" href="#"><span>Google+</span></a></li>
-			</ul>
-		</div>
-		<p class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">© 2017 Rental Mobil . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">MH3</a> </p>
-	</div>
-</div>
+<!--- /copy-right ---->
+<!-- sign -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+							<section>
+								<div class="modal-body modal-spa">
+									<div class="login-grids">
+										<div class="login">
+											<div class="login-right">
+												<form action="prosesdaftar.php" method="post" onsubmit="return validasi_input(this)">
+													<h3>Buat akun Anda</h3>
+													<input type="text" name="nama" placeholder="Masukan Nama lengkap anda">
+													<input type="text" name="username" placeholder="Masukan Username anda">
+													<input type="text" name="alamat" placeholder="Masukan Alamat anda">
+													<input type="text" name="telepon" placeholder="Masukan Telepon anda">
+													<input type="password" name="password" placeholder="Masukan Password anda">	
+													<input type="text" name="noktp" placeholder="Masukan No KTP anda">	
+													<input type="submit" name="daftar" value="CREATE ACCOUNT">
+												</form>
+											</div>
+												<div class="clearfix"></div>								
+										</div>
+										</div>
+								</div>
+							</section>
+					</div>
+				</div>
+			</div>
+
+<!-- //sign -->
+<!-- signin -->
+		<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">
+								<div class="login">
+									<div class="login-right">
+										<form action="prosesdaftar.php" method="post" onsubmit="return validasi_input(this)">
+											<h3>Masuk Dengan Akun Anda</h3>
+											<input type="text" name="username" placeholder="Masukan Username anda">
+											<input type="password" name="password" placeholder="Masukan password anda">
+											<input type="submit" value="SIGNIN" name="masuk">
+										</form>
+									</div>
+									<div class="clearfix"></div>								
+								</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- //signin -->
+<!-- write us -->
+<!-- //write us -->
+</body>
 </html>
